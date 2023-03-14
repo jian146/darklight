@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'lanting';
+  font-display: block;
+  src: url('./font/lanting.eot');
+  src:
+    url('./font/lanting.eot?#font-spider') format('embedded-opentype'),
+    url('./font/lanting.woff2') format('woff2'),
+    url('./font/lanting.woff') format('woff'),
+    url('./font/lanting.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bod';
+  font-display: block;
+  src: url('./font/bod.ttf');
+  src: url('./font/bod.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pertili';
+  src: url('./font/pertili.ttf');
+  src: url('./font/pertili.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
